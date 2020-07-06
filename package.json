@@ -1,0 +1,29 @@
+{
+  "name": "katex",
+  "version": "0.3.0",
+  "description": "Fast math typesetting for the web.",
+  "main": "katex.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Khan/KaTeX.git"
+  },
+  "files": [
+    "katex.js",
+    "cli.js",
+    "src/"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "~2.29.1",
+    "clean-css": "~2.2.15",
+    "express": "~3.3.3",
+    "jasmine-node": "2.0.0-beta4",
+    "jshint": "^2.5.6",
+    "less": "~1.7.5",
+    "uglify-js": "~2.4.15"
+  },
+  "bin": "cli.js",
+  "scripts": {
+    "test": "make lint test"
+  }
+}
